@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const InterviewPage = () => {
   // You can later replace these with dynamic props or data from n8n
-  const profilePic = "https://example.com/profile.jpg";
-  const name = "Jane Doe";
-  const bio = "Jane is an expert in ecosystem restoration, community engagement, and biodiversity.";
-  const interviewVideo = "https://www.youtube.com/embed/dQw4w9WgXcQ"; // replace with your interview link
+  const profilePic = "__profilepic__";
+  const name = "__name__";
+  const bio = "__bio__";
+  const interviewVideo = "__interviewvedio__"; // replace with your interview link
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-6">
